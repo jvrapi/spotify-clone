@@ -1,27 +1,65 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">
+	<img src="https://cdn-icons-png.flaticon.com/512/2111/2111624.png" alt="Spotify Clone" width="200"/>
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#information_source-como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-## Preview
+## 📖 Sobre
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+Clone do serviço de streaming de musica [Spotify](https://www.spotify.com). Clone realizado seguindo as orientações [desse video](https://www.youtube.com/watch?v=3xrko3GpYoU).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## 🚀 Tecnologias
 
-## Deploy your own
+- [Next JS](https://nextjs.org/)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+- [Spotify Web API Node](https://github.com/thelinmichael/spotify-web-api-node)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- [Tailwind](https://tailwindcss.com/)
 
-## How to use
+- [Recoil](https://github.com/facebookexperimental/Recoil)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- [Lodash](https://github.com/lodash/lodash)
+
+## :information_source: Como usar
+
+Para clonar e rodar esse projeto, você precisará do [Git](https://git-scm.com) e do [Node.js v16.13](https://nodejs.org) ou maior.
+
+Você vai precisar das suas chaves da api do Spotify. Acesse [esse link](), faça o login para ter acesso as chaves. Apos ter as chaves de api, renomeie o arquivo ` .env.example` para ` .env.local` e preencha as variaveis do arquivo.
+
+No projeto, foi utilizado também o [Yarn v1.22.7](https://yarnpkg.com). Na sua interface de linha de comandos, execute:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+# Clonar este repositorio
+$ git clone https://github.com/jvrapi/spotify-clone.git
+
+# Entre na pasta do repositorio
+$ cd spotify-clone
+
+# Instale as dependências
+$ yarn install ou npm install
+
+# Iniciando o app
+$ yarn Dev
+
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+<div align="center">
+
+Feito com ❤ por [João Vitor Santos](https://github.com/jvrapi) 👋 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-João%20Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joaovitorssdelima/)](https://www.linkedin.com/in/joaovitorssdelima/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joaooviitoorr@gmail.com)](mailto:joaooviitoorr@gmail.com)
+[![Hotmail Badge](https://img.shields.io/badge/-Hotmail-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:joaooviitorr@hotmail.com)](mailto:joaooviitorr@hotmail.com)
+
+</div>
